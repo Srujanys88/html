@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .si {
+        padding: 10px;
+      }
+      .sem {
+        padding: 10px;
+      }
+      .sgpa {
+        padding: 10px;
+      }
+      td {
+        padding: 10px;
+      }
+      .nam {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      input {
+        padding: 8px;
+        border-radius: 20px;
+        border: 2px solid brown;
+      }
+      .gender {
+        font-size: 20px;
+      }
+      select {
+        padding: 8px 14px;
+      }
+      .divv1 {
+        background-color: aqua;
+      }
+      .divv2 {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="radio" name="ss" />
+    <div class="divv1">
+      <center><h2>ACADEMIC RECORD</h2></center>
+      <table border="2px">
+        <tr>
+          <th class="si">SI No</th>
+          <th class="sem">Semester</th>
+          <th class="sgpa">SGPA</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1st</td>
+          <td>9.4</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2st</td>
+          <td>6.8</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>3st</td>
+          <td>8.4</td>
+        </tr>
+      </table>
+
+      <div class="nam">
+        Name: <input type="text" name="NM" placeholder="Enter your Name" />
+      </div>
+      <div class="nam">
+        Father's name :
+        <input type="text" name="NM" placeholder="Enter your fathers name " />
+      </div>
+      <p class="gender">Gender</p>
+      <div>
+        <label><input type="radio" name="gender" value="F" />Male</label>
+        <label><input type="radio" name="gender" value="M" />Female</label>
+      </div>
+    </div>
+    <div class="divv2">
+      <h3>Enter Your Department</h3>
+      <select name="dept">
+        <option>electrical</option>
+        <option>mech</option>
+        <option>AIML</option>
+        <option>CSE</option>
+        <option>ISE</option>
+      </select>
+
+      <p style="font-size: 20px">Area of intrest</p>
+      <label> <input type="checkbox" /> web development</label>
+      <label> <input type="checkbox" /> app development</label>
+      <label> <input type="checkbox" /> ios development</label>
+
+      <p style="font-size: 20px">text area</p>
+      <textarea cols="30" rows="10">hello</textarea>
+    </div>
+  </body>
+</html>
